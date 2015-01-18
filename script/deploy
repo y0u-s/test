@@ -1,4 +1,4 @@
-#!/bin/sh
+C:\cygwin64\bin/bash
  
 ssh app@145.24.222.111 <<EOF
   cd ~/hello-jenkins
