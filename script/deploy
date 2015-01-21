@@ -1,7 +1,5 @@
-#!C:\cygwin64\bin/bash
- 
 ssh app@145.24.222.111 <<EOF
-  cd ~/hello-jenkins
+  cd ~/test/test
   git pull
   npm install --production
   forever restartall
