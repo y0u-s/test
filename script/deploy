@@ -1,5 +1,5 @@
 ssh app@145.24.222.111 <<EOF
-  cd ~/test/test
+  cd ~/test/
   git pull
   npm install --production
   forever restartall
